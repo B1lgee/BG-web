@@ -11,9 +11,7 @@ fetch('data.json')
                     <h3>${data[0].name}</h3>
                     <hr>
             </article>
-            <article>
-                <p>${data[0].description}</p>
-            </article>
+           
             <article class="text-1">
                 <p>${data[0].address}</p>
                 <a href="More.html">Дэлгэрэнгүй...</a>
@@ -27,9 +25,7 @@ fetch('data.json')
                 <h3>${data[1].name}</h3>
                 <hr>
         </article>
-        <article>
-            <p>${data[1].description}</p>
-        </article>
+       
         <article class="text-2">
             <p>${data[1].address}</p>
             <a href="More.html">Дэлгэрэнгүй...</a>
@@ -43,9 +39,7 @@ fetch('data.json')
                 <h3>${data[2].name}</h3>
                 <hr>
         </article>
-        <article>
-            <p>${data[2].description}</p>
-        </article>
+      
         <article class="text-3">
             <p>${data[2].address}</p>
             <a href="More.html">Дэлгэрэнгүй...</a>
