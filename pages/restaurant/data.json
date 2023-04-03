@@ -2,17 +2,17 @@
     {
         "name": "ДАБЛ ШОТ-1",
         "address": "Хаяг: Хан-уул дүүрэг, 15-р хороо, Хурд хороооллын KH-Apartment үйлчилгээний төвийн 1 давхарт",
-        "image": "../.././images/resto1.jpg"
+        "image": "../../images/resto1.jpg"
     },
     {
         "name": "ДАБЛ ШОТ-2",
       
         "address": "Хаяг: Хан-уул дүүрэг, 15-р хороо, Хурд хороооллын KH-Apartment үйлчилгээний төвийн 1 давхарт",
-        "image": "../.././images/resto2.jpg"
+        "image": "../../images/resto2.jpg"
     },
     {
         "name": "ДАБЛ ШОТ-3",
         "address": "Хаяг: Хан-уул дүүрэг, 15-р хороо, Хурд хороооллын KH-Apartment үйлчилгээний төвийн 1 давхарт",
-        "image": "../.././images/resto3.jpg"
+        "image": "../../images/resto3.jpg"
     }
   ]
