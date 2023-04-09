@@ -1,0 +1,89 @@
+body {
+    background-image: url(images/background.avif);
+}
+
+nav {
+    float: right;
+    padding-top: 1.2rem;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  .home-page1{
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+
+.menu-page2 {
+  column-count: 2;
+  display: flex;/*text-үүдийг 1 эгнээнд байрлуулна*/
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  justify-content: space-evenly; /*contentuudiig zaitai bairluulah*/
+
+}
+
+    p.a {
+      text-align: right;
+    }
+    p.b {
+      text-align: left;
+    }
+
+  .menu-page3{
+    box-shadow: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.menu-page3 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .button {
+    flex-direction: row;
+  }
+  .button1 {
+    color: #ffffff;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .button2 {
+    color: #ffffff;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .button3 {
+    color: #ffffff;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .menu-page4 {
+    display: flex;
+  }
+
+  .footer {
+    column-count: 3;
+    color: #ffffff;
+  }
