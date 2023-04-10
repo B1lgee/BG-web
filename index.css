@@ -13,6 +13,8 @@ body {
   background-size: cover;
   height: 100vh;
 }
+/*  CSS of header section */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,7 @@ nav a {
 nav a:hover {
   color: #FF00F5;
 }
+
 .home-p {
   position: absolute;
   color: white;
@@ -74,4 +77,18 @@ nav a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+ .bonus{
+  display: flex;
+  position: relative;
+  padding: 10%;
 
+}
+
+
+
+/* CSS of footer section*/
+.footer {
+  display: grid;
+  background-color: #2F2A2A;
+  grid-template-columns: 15% 25% 30% 30%;
+}
