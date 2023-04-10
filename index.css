@@ -92,3 +92,7 @@ nav a:hover {
   background-color: #2F2A2A;
   grid-template-columns: 15% 25% 30% 30%;
 }
+
+.footer-restaurants > ul > li > a{
+  text-decoration: none;
+}
