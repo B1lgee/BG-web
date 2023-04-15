@@ -88,11 +88,71 @@ nav a:hover {
 
 /* CSS of footer section*/
 .footer {
-  display: grid;
   background-color: #2F2A2A;
-  grid-template-columns: 15% 25% 30% 30%;
+  grid-template-columns: 15% 25% 40% 30%;
+  font-size: 1.2rem;
+  
 }
 
 .footer-restaurants > ul > li > a{
   text-decoration: none;
+  color: #cacaca;
+  line-height: 1.5rem;
+
+}
+.footer-restaurants > ul > li{
+  list-style-type: none;
+}
+.footer-restaurants > ul > hr{
+    width: auto;
+}
+.footer-bonus > ul > hr{
+  width: auto;
+}
+
+.footer-contact >ul> hr{
+  width:auto;
+}
+
+.footer-bonus > ul >li{
+  list-style-type: none;
+}
+.footer-contact > ul > li{
+  list-style-type: none;
+}
+
+.footer-bonus > ul > li > a{
+  text-decoration: none;
+  color: #cacaca;
+  
+}
+
+.footer-contact > ul > li > a{
+  text-decoration: none;
+  color: #cacaca;
+ 
+}
+.footer-top{
+  display:flex;
+  justify-content: space-around;
+  margin: 1.5rem;
+  padding: 20px;
+  
+}
+
+h5 > a{
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+.bottom-title > hr{
+  width: auto;
+}
+.bottom-title{
+  position: relative;
+  margin: 1.5rem;
+  padding-left: 15.5vh;
+  padding-right: 15.5vh;
 }
