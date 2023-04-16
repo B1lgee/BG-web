@@ -25,11 +25,25 @@ nav {
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  .home-page1{
-    background-image: url(images/home.jpg);
-    background-size: cover;
-    height: 100vh;
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+ @media (min-aspect-ratio:16/9) {
+  .back-video {
+    width: auto;
+    height: auto;
   }
+ }
+ @media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: auto;
+  }
+ }
+
 
 .menu-page2 {
   column-count: 2;
@@ -60,30 +74,15 @@ nav {
 }
   .button {
     flex-direction: row;
-  }
-  .button1 {
+    font-size: small;
     color: #ffffff;
-    background-color: black;
+    background-color: #00000000;
+    position: relative;
     border-radius: 30px;
   }
 
-  .button2 {
-    color: #ffffff;
-    background-color: black;
-    border-radius: 30px;
-  }
-
-  .button3 {
-    color: #ffffff;
-    background-color: black;
-    border-radius: 30px;
-  }
 
   .menu-page4 {
     display: flex;
   }
 
-  .footer {
-    column-count: 3;
-    color: #ffffff;
-  }
