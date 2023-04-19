@@ -86,11 +86,24 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* CSS of footer section*/
 .footer {
   background-color: #2F2A2A;
   grid-template-columns: 15% 25% 40% 30%;
   font-size: 1.2rem;
+  padding: 1.2rem;
+  
   
 }
 
@@ -105,31 +118,39 @@ nav a:hover {
 }
 .footer-restaurants > ul > hr{
     width: auto;
+    line-height: 1.5rem;
 }
 .footer-bonus > ul > hr{
   width: auto;
+  line-height: 1.5rem;
 }
 
 .footer-contact >ul> hr{
   width:auto;
+  line-height: 1.5rem;
 }
 
 .footer-bonus > ul >li{
   list-style-type: none;
+  line-height: 1.5rem;
 }
 .footer-contact > ul > li{
   list-style-type: none;
+  line-height: 1.5rem;
 }
 
 .footer-bonus > ul > li > a{
   text-decoration: none;
   color: #cacaca;
+  line-height: 1.5rem;
   
 }
 
 .footer-contact > ul > li > a{
   text-decoration: none;
   color: #cacaca;
+  line-height: 1.5rem;
+  
  
 }
 .footer-top{
@@ -137,22 +158,30 @@ nav a:hover {
   justify-content: space-around;
   margin: 1.5rem;
   padding: 20px;
+  line-height: 1.5rem;
   
 }
 
 h5 > a{
   color: white;
   text-decoration: none;
+  line-height: 1.5rem;
+  
   
   
 }
 
-.bottom-title > hr{
-  width: auto;
-}
+
 .bottom-title{
-  position: relative;
-  margin: 1.5rem;
-  padding-left: 15.5vh;
-  padding-right: 15.5vh;
+  
+  padding-left: 16.5vh;
+  padding-right: 16.5vh;
+  color: white;
+  line-height: 1.5rem;
+}
+.footer-bottom{
+  display: flex;
+  border-top: 2px solid white;
+  justify-content: space-between;
+  width: auto;
 }
