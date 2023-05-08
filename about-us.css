@@ -143,7 +143,9 @@ h4{
   left: 4rem;
   top: 1200px;
   border-radius: 30px;
-  border: 8px solid #ffffff;
+  background-image: linear-gradient(to right, #FF00F5 0%, #00F0FF 100%);
+  padding: 10px;
+
 }
 .page4>p{
   text-align: left;
@@ -166,7 +168,8 @@ h4{
   left: 680px;
   top: 1550px;
   border-radius: 30px;
-  border: 8px solid #ffffff;
+  background-image: linear-gradient(to right, #FF00F5 0%, #00F0FF 100%);
+  padding: 10px;
 }
 h2{
   color: #ffffff;
