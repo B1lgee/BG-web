@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+  background-image: url(images/background.avif);
+}
+/*  CSS of header section */  
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 10px 8%;
+}
+
+  
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+  
+.logo img {
+  height: 50px;
+}
+  
+nav {
+  float: right;
+  padding-top: 1.2rem;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #FF00F5;
+  }
+  
+.page1>p {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 40px;
+}
+.img1{
+  display: block;
+  margin: auto auto;
+  width: 90rem;
+  height: 40rem;
+  border-radius: 90px;
+}
+h3, h4{
+  font-family: Arimo;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  top: 16rem;
+  position: absolute;
+}
+h3{
+  color: #C924A9;
+  text-align: left;
+  left: 53rem;
+  position: absolute;
+}
+
+h4{
+  color: #1EC1BB;
+  text-align: right;
+  left: 18rem;
+}
+
+.pink{
+  position: absolute;
+  width: 6rem;
+  height: 0rem;
+  left: 47.5rem;
+  top: 18.5rem;
+  border: 0.18rem solid #FF00F5;
+  transform: rotate(90deg);
+}
+.green{
+  position: absolute;
+  width: 6rem;
+  height: 0rem;
+  left: 46.8rem;
+  top: 18.5rem;
+  border: 0.18rem solid #37B2AC;
+  transform: rotate(90deg);
+}
+.page3>p{
+  text-align: right;
+  position: absolute;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  width: 500px;
+  height: 300px;
+  left: 645px;
+  top: 1200px;
+}
+
+.img2{
+  position: absolute;
+  padding-bottom: 30px;
+  width: 530px;
+  height: 320px;
+  left: 7rem;
+  top: 1150px;
+  border-radius: 30px;
+}
+.page4>p{
+  text-align: left;
+  position: absolute;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  width: 500px;
+  height: 300px;
+  left: 40px;
+  top: 1500px;
+}
+.img3{
+  position: absolute;
+  width: 530px;
+  height: 320px;
+  left: 600px;
+  top: 1450px;
+  border-radius: 30px;
+}
+h2{
+  padding-top: 4rem;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Arimo';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+ 
+.blue{
+  position: absolute;
+  width: 12rem;
+  height: 0rem;
+  left: 44.3rem;
+  top: 73rem;
+  border: 2px solid #00F0FF;
+}
+.page2>p{
+  text-align: center;
+  font-family: Gotu;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+
+}
+  
+  /* CSS of footer section*/
+  .footer {
+    margin-top: 60rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #2F2A2A;
+    font-size: 1.2rem;
+    
+    
+
+  }
+  
+  .footer-restaurants > ul > li > a{
+    text-decoration: none;
+    color: #cacaca;
+    line-height: 1.5rem;
+  
+  }
+  
+  .footer-restaurants > ul > li{
+    list-style-type: none;
+  }
+  /* .footer-restaurants > ul > hr{
+      width: auto;
+      color: white;
+      line-height: 1.5rem;
+  } */
+  /* .footer-bonus > ul > hr{
+    width: auto;
+    line-height: 1.5rem;
+  } */
+  
+  /* .footer-contact >ul> hr{
+    width:auto;
+    line-height: 1.5rem;
+  } */
+  .footer-restaurants > ul> hr{
+    width: 280px;
+    text-align: left;
+    margin-left: 0%;
+    line-height: 1.5rem;
+  }
+  .footer-bonus > ul> hr{
+    width: 280px;
+    text-align: left;
+    margin-left: 0%;
+    line-height: 1.5rem;
+  }
+  .footer-contact > ul> hr{
+    width: 280px;
+    text-align: left;
+    margin-left: 0%;
+    line-height: 1.5rem;
+  }
+  .footer-bonus > ul >li{
+    list-style-type: none;
+    line-height: 1.5rem;
+  }
+  .footer-contact > ul > li{
+    list-style-type: none;
+    line-height: 1.5rem;
+  }
+  
+  .footer-bonus > ul > li > a{
+    text-decoration: none;
+    color: #cacaca;
+    line-height: 1.5rem;
+    
+  }
+  
+  .footer-contact > ul > li > a{
+    text-decoration: none;
+    color: #cacaca;
+    line-height: 1.5rem;
+    
+    
+   
+  }
+  .footer-top{
+    display:flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    padding-bottom: 2%;
+  }
+  
+  h5 > a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.5rem;
+    padding-left: 26%;
+    
+  }
+  
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    
+  }
+  
+  .bottom-title{
+    color: white;
+  }
+  .footer-icon {
+   justify-content: space-between;
+  }
+  
+  .footer > ul > li > a{
+    padding-left: 1.5rem;
+  } 
