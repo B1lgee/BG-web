@@ -62,14 +62,14 @@ nav ul {
   
 .page1>p {
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
   padding-left: 6rem;
   padding-right: 6rem;
-  font-family: 'PT sans-serif';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 40px;
   color: #ffffff;
 }
@@ -81,12 +81,12 @@ nav ul {
   border-radius: 90px;
 }
 h3, h4{
-  font-family: 'PT sans-serif';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
-  top: 14rem;
+  top: 13rem;
   position: absolute;
 }
 h3{
@@ -107,7 +107,7 @@ h4{
   width: 5rem;
   height: 0rem;
   left: 37rem;
-  top: 16rem;
+  top: 15rem;
   border: 0.15rem solid #FF00F5;
   transform: rotate(90deg);
 }
@@ -116,17 +116,17 @@ h4{
   width: 5rem;
   height: 0rem;
   left: 36rem;
-  top: 16rem;
+  top: 15rem;
   border: 0.15rem solid #37B2AC;
   transform: rotate(90deg);
 }
 .page3>p{
   text-align: right;
   position: absolute;
-  font-family: 'PT sans-serif';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   width: 500px;
   height: 300px;
@@ -150,10 +150,10 @@ h4{
 .page4>p{
   text-align: left;
   position: absolute;
-  font-family: 'Azeret Mono';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   width: 500px;
   height: 300px;
@@ -176,7 +176,7 @@ h2{
   padding-top: 4rem;
   text-align: center;
   font-size: 36px;
-  font-family: PT sans;
+  font-family: sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -186,7 +186,7 @@ h2{
   width: 12rem;
   height: 0rem;
   left: 33.5rem;
-  top: 58rem;
+  top: 56rem;
   border: 1.2px solid #00F0FF;
 }
 .page2>p{
@@ -194,11 +194,11 @@ h2{
   font-family: PT sans;
   padding-top: 1.8rem;
   padding-bottom: 2rem;
-  font-family: 'Azeret Mono';
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 22px;
+  line-height: 40px;
   color: #ffffff;
 
 }
