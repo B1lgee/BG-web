@@ -5,7 +5,7 @@
   }
   
 body {
-  background-image: url('images/background.avif');
+  background-image: url(images/background.avif);
 }
 /*  CSS of header section */  
 header {
@@ -20,7 +20,6 @@ header {
   z-index: 1;
   padding: 10px 8%;
 }
-
   
 .logo {
   display: inline-block;
@@ -62,150 +61,14 @@ nav ul {
   
 .page1>p {
   text-align: center;
-  padding-top: 6rem;
-  padding-bottom: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
-  color: #ffffff;
-}
-.img1{
-  display: block;
-  margin: auto auto;
-  width: 70rem;
-  height: 30rem;
-  border-radius: 90px;
-}
-h3, h4{
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 30px;
-  top: 13rem;
-  position: absolute;
-}
-h3{
-  color: #C924A9;
-  text-align: left;
-  left: 41.5rem;
-  position: absolute;
+  padding-top: 100px;
+  
 }
 
-h4{
-  color: #1EC1BB;
-  text-align: right;
-  left: 15rem;
-}
-
-.pink{
-  position: absolute;
-  width: 5rem;
-  height: 0rem;
-  left: 37rem;
-  top: 15rem;
-  border: 0.15rem solid #FF00F5;
-  transform: rotate(90deg);
-}
-.green{
-  position: absolute;
-  width: 5rem;
-  height: 0rem;
-  left: 36rem;
-  top: 15rem;
-  border: 0.15rem solid #37B2AC;
-  transform: rotate(90deg);
-}
-.page3>p{
-  text-align: right;
-  position: absolute;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 40px;
-  width: 500px;
-  height: 300px;
-  left: 690px;
-  top: 1250px;
-  color: #ffffff;
-}
-
-.img2{
-  position: absolute;
-  padding-bottom: 30px;
-  width: 520px;
-  height: 320px;
-  left: 4rem;
-  top: 1200px;
-  border-radius: 30px;
-  background-image: linear-gradient(to right, #FF00F5 0%, #00F0FF 100%);
-  padding: 10px;
-
-}
-.page4>p{
-  text-align: left;
-  position: absolute;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 40px;
-  width: 500px;
-  height: 300px;
-  left: 70px;
-  top: 1600px;
-  color: #ffffff;
-}
-.img3{
-  position: absolute;
-  width: 520px;
-  height: 320px;
-  left: 680px;
-  top: 1550px;
-  border-radius: 30px;
-  background-image: linear-gradient(to right, #FF00F5 0%, #00F0FF 100%);
-  padding: 10px;
-}
-h2{
-  color: #ffffff;
-  padding-top: 4rem;
-  text-align: center;
-  font-size: 36px;
-  font-family: sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
  
-.blue{
-  position: absolute;
-  width: 12rem;
-  height: 0rem;
-  left: 33.5rem;
-  top: 56rem;
-  border: 1.2px solid #00F0FF;
-}
-.page2>p{
-  text-align: center;
-  font-family: PT sans;
-  padding-top: 1.8rem;
-  padding-bottom: 2rem;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 40px;
-  color: #ffffff;
-
-}
   
   /* CSS of footer section*/
   .footer {
-    margin-top: 50rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
@@ -214,7 +77,7 @@ h2{
     font-size: 1.2rem;
     
     
-
+    
   }
   
   .footer-restaurants > ul > li > a{
