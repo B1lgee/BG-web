@@ -6,9 +6,52 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="description" content="This is home page.">
 			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lora&family=Roboto:wght@300&display=swap" rel="stylesheet">
 			<title>Home</title>
 			<style>
+				.page1{
+					width: 100%;
+					height: 750px;
+					flexShrink: 0;
+					background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 100%), url(images/home.jpg), lightgray 50% / cover no-repeat;
+					background-position: center;
+					background-size: cover;
+					position: relative;
+					text-align: center;
+				}
+				.page1 h2 {
+					position: absolute;
+					left: 35%;
+					top: 40%;
+					textShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+					fontStyle: normal;
+					font-size: 50px;
+					text-align: center;
+					font-family: 'Cormorant Garamond', serif;
+				}
+			
+				.home-p{
+					position: absolute;
+					left:20%;
+					top: 50%;
+					textShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+					fontStyle: normal;
+					font-size: 24px;
+					text-align: left;
+				}
+				.page2 h2{
+					position: absolute;
+					left: 35%;
+					top: 105%;
+					font-size: 36px;
+					font-family: 'Cormorant Garamond', serif;
+			
+				}
 				
+				
+
 			</style>
 		</head>
 <body>
@@ -26,11 +69,11 @@
 	</header>
 
 	
-	<section class="home-page1">
+	<section class="page1">
 		<h2>Cocktails & Coffee</h2>
 		<p class="home-p">Төрөл бүрийн коктейл, кофе, уух зүйлс болон амтат хоолоор үйлчилж байна</p>
 	</section>
-	<section class="home-page2">
+	<section class="page2">
 		<h2>Daily & Weekly surprises</h2>
 		<div class="bonus">
 			<img class="weekly" src="images/weekly.jpg" alt="Weekly bonus" width="250" height="350">
@@ -38,7 +81,7 @@
 			<img class="daily2" src="images/daily2.jpg" alt="Daily bonus" width="400" height="150">
 		</div>
 	</section>
-	<section class="home-page3">
+	<section class="page3">
 		<h2>Манайхаар үйлчлүүлснээр</h2>
 		<div class="products">
 			<section class="coffee">
